@@ -1,0 +1,21 @@
+type_mapper =  {
+    "INTEGER": "INT",
+    "FLOAT": "FLOAT",
+    "STRING": "STRING",
+    "BOOLEAN": "BOOL",
+    "DATE": "DATETIME",
+    "MAP": "MAP<STRING, STRING>",
+    "BYTE_ARRAY": "LIST<INT>",
+    "LIST": "LIST<STRING>",
+    "DURATION": "STRING",
+    "POINT": "FLOAT",
+    "LOCAL_DATE_TIME": "DATETIME",
+    "DATE_TIME" : "DATETIME",
+    "TIME" : "DATETIME",
+    "ID" : "STRING",
+    "CARTESIAN_POINT" : "FLOAT",
+    "BIG_INT" : "DOUBLE",
+    "ZONED_TIME": "DATETIME",
+    "LOCAL_TIME": "DATETIME",
+    "ZONED_DATE_TIME": "DATETIME"
+    }

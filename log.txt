@@ -1,0 +1,59 @@
+The graph scmr123 is created.
+Using graph 'scmr123'
+Successfully created schema change jobs: [schema_change_job_scmr123].
+Kick off schema change job schema_change_job_scmr123
+Doing schema change on graph 'scmr123' (current version: 0)
+Trying to add local vertex 'Invoice' to the graph 'scmr123'.
+Trying to add local vertex 'Category' to the graph 'scmr123'.
+Trying to add local vertex 'Address' to the graph 'scmr123'.
+Trying to add local vertex 'Customer' to the graph 'scmr123'.
+Trying to add local vertex 'Product' to the graph 'scmr123'.
+Trying to add local vertex 'Review' to the graph 'scmr123'.
+Trying to add local vertex 'Credit_Card' to the graph 'scmr123'.
+Trying to add local vertex 'Plant' to the graph 'scmr123'.
+Trying to add local vertex 'Turnover' to the graph 'scmr123'.
+Trying to add local vertex 'Supplier' to the graph 'scmr123'.
+Trying to add local vertex 'ProductionOrder' to the graph 'scmr123'.
+Trying to add local vertex 'Order_' to the graph 'scmr123'.
+Trying to add local vertex 'BOM' to the graph 'scmr123'.
+Trying to add local vertex 'Reward_Account' to the graph 'scmr123'.
+Trying to add local vertex 'OrderItem' to the graph 'scmr123'.
+Trying to add local vertex 'Country' to the graph 'scmr123'.
+Trying to add local edge 'FOR_PLANT' to the graph 'scmr123'.
+Trying to add local edge 'FOR_MATERIAL' to the graph 'scmr123'.
+Trying to add local edge 'Generated_By' to the graph 'scmr123'.
+Trying to add local edge 'has_reward_account' to the graph 'scmr123'.
+Trying to add local edge 'review_by' to the graph 'scmr123'.
+Trying to add local edge 'has_address' to the graph 'scmr123'.
+Trying to add local edge 'CONTAINS_BOM' to the graph 'scmr123'.
+Trying to add local edge 'HAS_TURNOVER' to the graph 'scmr123'.
+Trying to add local edge 'in_category' to the graph 'scmr123'.
+Trying to add local edge 'card_holder' to the graph 'scmr123'.
+Trying to add local edge 'CONTRIBUTES_TURNOVER' to the graph 'scmr123'.
+Trying to add local edge 'PLANT_LOCATED_IN' to the graph 'scmr123'.
+Trying to add local edge 'SUPPLIER_LOCATED_IN' to the graph 'scmr123'.
+Trying to add local edge 'MANUFACTURED_AT' to the graph 'scmr123'.
+Trying to add local edge 'IS_FOR' to the graph 'scmr123'.
+Trying to add local edge 'purchased_by' to the graph 'scmr123'.
+Trying to add local edge 'reward_account_used' to the graph 'scmr123'.
+Trying to add local edge 'has' to the graph 'scmr123'.
+Trying to add local edge 'review' to the graph 'scmr123'.
+Trying to add local edge 'purchase_card' to the graph 'scmr123'.
+Trying to add local edge 'BOM_INCLUDES' to the graph 'scmr123'.
+Trying to add local edge 'contains' to the graph 'scmr123'.
+Trying to add local edge 'CONTRIBUTES_TO' to the graph 'scmr123'.
+
+Graph scmr123 updated to new version 1
+The job schema_change_job_scmr123 completes in 14.722 seconds!
+Local schema change succeeded.
+Successfully dropped jobs on the graph 'scmr123': [schema_change_job_scmr123].
+Using graph 'scmr123'
+Successfully created schema change jobs: [indexschema_change_job_scmr123].
+Kick off schema change job indexschema_change_job_scmr123
+Doing schema change on graph 'scmr123' (current version: 1)
+Trying to add index 'Product_MaterialNumber' on the attribute 'MaterialNumber' of local vertex 'Product' on the graph 'scmr123'.
+
+Graph scmr123 updated to new version 2
+The job indexschema_change_job_scmr123 completes in 15.255 seconds!
+Local schema change succeeded.
+Successfully dropped jobs on the graph 'scmr123': [indexschema_change_job_scmr123].
